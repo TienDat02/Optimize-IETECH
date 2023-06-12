@@ -23,7 +23,14 @@ const Hero = () => {
 
       {/* image */}
       <div className="flex w-full md:w-1/2">
-        <Image src={heroImg} alt="hero" className="rounded-full object-scale-down shadow-lg" />
+      <Image
+      src={heroImg}
+      alt="hero"
+      className="rounded-full object-scale-down shadow-lg"
+      layout="responsive"
+      width={1200}
+      height={800}
+/>
       </div>
     </section>
   );
